@@ -1,0 +1,124 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>spizew.ski</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap"
+    />
+    <meta name="description" content="" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content=""> -->
+
+    <link rel="icon" href="/public/favicon.ico" sizes="any" />
+    <link rel="icon" href="/public/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/public/icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Cześć, jestem Rafał.</h1>
+      <p>
+        Mam bogate doświadczenie jako programista front-end. W ciągu ostatnich 5
+        lat zdobyłem wiedzę i umiejętności w projektowaniu i implementacji
+        aplikacji webowych dla różnych branż. Zawsze stawiam na jakość i
+        precyzję, dążąc do ciągłego doskonalenia swoich umiejętności.
+      </p>
+      <div class="tech">
+        <p>W mojej pracy korzystam głównie&nbsp;z:</p>
+        <div class="content">
+          <img title="HTML5" alt="html5" src="/public/html5.svg" />
+          <img title="CSS3" alt="css3" src="/public/css3.svg" />
+          <img title="JavaScript" alt="javascript" src="/public/javascript.svg" />
+          <img title="TypeScript" alt="typescript" src="/public/typescript.svg" />
+          <img title="React" alt="react" src="/public/react.svg" />
+          <img title="NextJS" alt="nextjs" src="/public/nextjs.svg" />
+          <img title="Node" alt="node" src="/public/node.svg" />
+        </div>
+        <p>...ale jestem gotowy na nowe wyzwania ;)</p>
+      </div>
+      <p>
+        Masz sprawę? Nie wahaj się - <a href="mailto:rafal.spizewski@gmail.com"
+          >napisz&nbsp;do&nbsp;mnie!</a
+        >
+      </p>
+    </main>
+  </body>
+</html>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    color: #222;
+  }
+
+  @media screen and (min-width: 440px) {
+    body {
+      font-size: 26px;
+    }
+  }
+
+  main {
+    max-width: 832px;
+    width: 100%;
+    padding: 32px 16px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p a {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  p a:hover {
+    text-decoration: underline;
+  }
+
+  .tech p {
+    margin-bottom: 0.5em;
+  }
+
+  .tech p:last-of-type {
+    margin: 0.5em 0 0 0;
+    font-size: 14px;
+    color: #999;
+  }
+
+  .tech .content {
+    display: flex;
+    gap: 0.75em;
+  }
+
+  .tech .content img {
+    height: 1.25em;
+  }
+</style>
